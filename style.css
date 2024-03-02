@@ -1,0 +1,215 @@
+body{
+    background-color: #fff;
+    margin: 1.5em;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.heroimage{
+    margin: 0 right;
+    margin-left: 0;
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    background: url(../images/shoe1.jpg);
+    z-index: -1;
+    background-size: cover;
+    background-position: right;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    top: 0px;
+    left: unset;
+    right: 0;
+}
+
+ header{
+    height: 90px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: .8em;
+}
+
+header a span{
+    color: red;
+}
+
+header nav ul{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-size: 1.15rem;
+}
+
+header nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.wrapper article{
+    padding-block: 50px;
+    height: 80%;
+    width: 80%;
+}
+
+.wrapper article{
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper article h1{
+    font-size: 25px;
+    max-width: 300px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.wrapper article p{
+    font-size: 18px;
+    max-width: 400px;
+    color: grey;
+}
+
+.wrapper article .arrow{
+    height: 70px;
+    width: 12px;
+    margin-top: 10px;
+    background-color: grey;
+    animation: moveArrow 1s alternate-reverse infinite;}
+
+@keyframes moveArrow{
+    from{transform: translateY(-28px);}
+    to{transform: translateY(0px);}
+}
+    
+    #hero{
+    padding-block: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#hero article{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+#hero article .hero1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#hero article .hero1 h1{
+    font-size: 25px;
+    max-width: 300px;
+    text-transform: capitalize;
+    margin-right: 80px;
+}
+
+#hero article .hero1 p{
+    margin-left: 20px;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+#hero article .hero2{
+    background-size: cover;
+    background: url(../images/shoe3.jpg) no-repeat center;
+}
+
+#hello{
+    padding-block: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+article .hello2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+article .hello2 h1{
+    font-size: 25px;
+    max-width: 300px;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+
+article .hello2 p{
+    margin-left: 40px;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+article .hello1{
+    background-size: cover;
+    background: url(../images/shoe2.jpg) no-repeat center;
+}
+
+#hi{
+    padding-block: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+article .hi1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+article .hi1 h1{
+    font-size: 25px;
+    max-width: 300px;
+    text-transform: capitalize;
+    margin-right: 80px;
+}
+
+article .hi1 p{
+    margin-left: 20px;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+article .hi2{
+    background-color: grey;
+    background-image: url(../images/shoe2.jpg);
+    background-size: cover;
+    background: url(../images/shoe4.jpg) no-repeat center;
+}
